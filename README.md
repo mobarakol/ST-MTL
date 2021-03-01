@@ -11,6 +11,15 @@ Our contributions are summarized as follows:<br>
 
 –We generate task-oriented instruments saliency and scanpath similar to the surgeon’s visual perception to get the priority focus on surgical instruments. Our model achieves impressive results and surpasses the existing state-of-the-art models in MICCAI robotic instrument segmentation dataset.<br>
 
+For training:
+```
+python main.py
+```
+For Validation:
+```
+python deploy.py
+```
+
 ## Citation
 If you use this code for your research, please cite our paper.
 
